@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TITLE</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+    <h1>
+        <div>Header</div>
+        <p>Header<br>
+            (em: Compared to the element's font size <br>(4em = four times the size of the existing font)</p>
+    </h1>
+
+    <div class="em">
+        <span>Size 2em</span>
+        <p>Size 2em (Compared to the element's font size (2em = two times the size of the existing
+            font)</p>
+    </div>
+    <br>
+
+    <div class="vw">A div element
+        <p>vw: Relative to 1% of the width of the viewport*</p>
+        <p>vh: Relative to 1% of the height of the viewport*</p>
+    </div>
+    <br>
+
+    <h2>Child Selector (>)</h2>
+    <p class="element2">The Child selector (>) chooses all items that are a certain element's offspring.</p>
+    <div>
+        <p class="element2">Statement 1 in the div.</p>
+        <p class="element2">Statement 2 in the div.</p>
+        <section>
+            <!-- not element but Descendant -->
+            <p class="element2">Statement 3 in the div.</p>
+        </section>
+        <p class="element2">Statement 4 in the div.</p>
+    </div>
+
+    <p class="element2">Statement 5. Not in a div.</p>
+
+    <h2>Adjacent Sibling Selector (+)</h2>
+
+    <p class="element1">Some Text</p>
+    <p class="element1">Some Text</p>
+    <p>An element that follows another particular element directly can be chosen with the + selector.</p>
+    
+
+
+    <h2>General Sibling Selector (~) </h2>
+
+    <p>All items that are a given element's next siblings are selected using the General sibling selector (~).</p>
+
+    <p>Statement 1.</p>
+
+    <div>
+    </div>
+    <p class="Sibling_Selector ">Statement 2.</p>
+    </div>
+
+    <p class="Sibling_Selector ">Statement 3.</p>
+    <p>Statement 4.</p>
+    <p class="Sibling_Selector ">Statement 5.</p>
+
+
+    <!-- Transform and transition -->
+    <h2>Demo for css transition and transform</h2>
+
+
+    <div class="container">
+        <p>(Mouseover the picture.)</p>
+        <div class="droplet"></div>
+        </div>
+    </div>
+    
+    
+
+
+</body>
+
+</html>
